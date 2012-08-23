@@ -81,7 +81,7 @@ or::
 
     {% get_tagcloud as tags for 'yourapp.yourmodel' %}
     
-respectivly. The resulting list of tags is ordered by their ``name`` attribute. Besides the ``num_items`` attribute, there's a ``weight`` attribute. Its maximum and minimum may be specified as the settings_ section reads.
+respectivly. The resulting list of tags is ordered by their ``name`` attribute. Besides the ``num_times`` attribute, there's a ``weight`` attribute. Its maximum and minimum may be specified as the settings_ section reads.
 
 Inclusion-Tag
 -------------
